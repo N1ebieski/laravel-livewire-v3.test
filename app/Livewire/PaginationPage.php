@@ -16,7 +16,7 @@ class PaginationPage extends Component
             <div>
                 <h1>Pagination page</h1>
                 <div>
-                    <livewire:pagination lazy />
+                    <livewire:pagination />
                 </div>
             </div>
         HTML;
