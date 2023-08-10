@@ -17,7 +17,7 @@ class Pagination extends Component
         return Sushi::paginate(25);
     }
 
-    public function updatePage()
+    public function updatedPage()
     {
         dd('Page has been updated!');
     }
