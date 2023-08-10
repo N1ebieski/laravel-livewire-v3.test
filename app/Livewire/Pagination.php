@@ -17,6 +17,13 @@ class Pagination extends Component
         return Sushi::paginate(25);
     }
 
+    public function placeholder()
+    {
+        return <<<'HTML'
+            <div>Loading...</div>
+        HTML;
+    }
+
     public function render()
     {
         return <<<'HTML'
