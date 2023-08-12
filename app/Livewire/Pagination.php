@@ -19,7 +19,7 @@ class Pagination extends Component
 
     public function updatedPage()
     {
-        dd('Page has been updated!');
+        dump('Page has been updated!');
     }
 
     public function render()
