@@ -14,5 +14,3 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('hello-page', \App\Livewire\HelloPage::class)->name('hello-page');
-
-Route::get('pagination-page', \App\Livewire\PaginationPage::class)->name('pagination-page');
