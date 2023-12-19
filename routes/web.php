@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\HelloPage;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('hello-page', HelloPage::class)->name('hello-page');
