@@ -1,0 +1,3 @@
+[submodule "packages/livewire/livewire"]
+	path = packages/livewire/livewire
+	url = https://github.com/N1ebieski/livewire.git
